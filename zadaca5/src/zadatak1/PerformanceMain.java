@@ -10,8 +10,9 @@ public class PerformanceMain {
         System.out.println("You have met your expectations:" + performance.meetExpectations());
 
         final Performance performance1 = new Performance(0, 0, 0);
+
         System.out.println("Please insert the values for Performance calculation for KPI score: ");
-        int KPIScore = scanner.nextInt();
+        final int KPIScore = scanner.nextInt();
         performance1.setKPIScore(KPIScore);
 
         System.out.println("Please insert the values for Performance calculation for Bruto Salary: ");
