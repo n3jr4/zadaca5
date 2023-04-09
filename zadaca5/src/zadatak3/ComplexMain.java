@@ -2,7 +2,7 @@ package zadatak3;
 
 public class ComplexMain {
     public static void main(String[] args) {
-        Complex z = new Complex(2,-3);
+        Complex z = new Complex(2, -3);
         System.out.println(z.Re());
         System.out.println(z.Im());
 
