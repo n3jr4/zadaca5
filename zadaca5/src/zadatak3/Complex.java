@@ -21,11 +21,11 @@ public class Complex {
         return this.iPart;
     }
 
-    public Complex add(Complex z1) {
+    public Complex add(final Complex z1) {
         return new Complex(this.rPart + z1.Re(), this.iPart + z1.Im());
     }
 
-    public Complex subtract(Complex z1) {
+    public Complex subtract(final Complex z1) {
         return new Complex(this.rPart - z1.Re(), this.iPart - z1.Im());
     }
 
