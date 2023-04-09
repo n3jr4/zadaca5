@@ -29,15 +29,15 @@ public class Performance {
         return KPIScore;
     }
 
-    public void setBrutoSalary(double brutoSalary) {
+    public void setBrutoSalary(final double brutoSalary) {
         this.brutoSalary = brutoSalary;
     }
 
-    public void setCoefficient(double coefficient) {
+    public void setCoefficient(final double coefficient) {
         this.coefficient = coefficient;
     }
 
-    public void setKPIScore(int KPIScore) {
+    public void setKPIScore(final int KPIScore) {
         this.KPIScore = KPIScore;
     }
 
